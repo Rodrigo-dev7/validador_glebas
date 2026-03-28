@@ -1,13 +1,33 @@
+<p align="center">
+  <img src="assets/readme-banner.svg" alt="Banner do projeto Validador de Glebas" width="100%">
+</p>
+
 # Validador de Glebas
 
-Aplicativo desktop em Python com `CustomTkinter` para validar planilhas de glebas e apontar inconsistencias de coordenadas e sequenciamento.
+Aplicativo desktop em Python com `CustomTkinter` para validar planilhas de coordenadas geodesicas e identificar inconsistencias por gleba de forma rapida.
 
-## Requisitos
+## O que o projeto faz
 
-- Python 3.10
-- Dependencias do projeto instaladas na `.venv`
+- Le arquivos `.xls` e `.xlsx`
+- Detecta automaticamente colunas de gleba, ponto, latitude e longitude
+- Valida fechamento de poligono e repeticao indevida de coordenadas
+- Sinaliza coordenadas invalidas
+- Mostra resumo por gleba e permite exportar relatorio
+- Gera executavel `.exe` para distribuicao no Windows
 
-## Como executar
+## Tipos de erro identificados
+
+- `COORDENADA INVALIDA`: latitude ou longitude nao numerica
+- `PONTO DUPLICADO EM EXCESSO`: coordenada repetida 3 ou mais vezes na sequencia
+- erros de fechamento e sequenciamento do contorno da gleba
+
+## Fluxo de uso
+
+<p align="center">
+  <img src="assets/readme-flow.svg" alt="Fluxo de uso do aplicativo" width="100%">
+</p>
+
+## Como executar o app
 
 ```powershell
 .\.venv\Scripts\python.exe .\validador_glebas_app.py
@@ -19,13 +39,37 @@ Aplicativo desktop em Python com `CustomTkinter` para validar planilhas de gleba
 .\build_executavel.bat
 ```
 
-## Arquivos principais
+O executavel sera gerado em `dist\ValidadorGlebas.exe`.
 
-- `validador_glebas_app.py`: interface desktop.
-- `validador2_glebas.py`: versao auxiliar da logica.
-- `build_executavel.bat`: gera o `.exe` com PyInstaller.
-- `assets/validador_glebas_icon.ico`: icone do aplicativo.
+## Estrutura principal
 
-## Exemplos
+- `validador_glebas_app.py`: interface desktop principal
+- `validador2_glebas.py`: versao auxiliar da logica de validacao
+- `build_executavel.bat`: script de build com PyInstaller
+- `version_info.txt`: metadados do executavel no Windows
+- `assets/validador_glebas_icon.ico`: icone do aplicativo
 
-O repositorio inclui planilhas `.xls` de exemplo para teste rapido do validador.
+## Arquivos de exemplo
+
+O repositorio inclui planilhas de exemplo para testes rapidos:
+
+- `TESTE_1_COM ERROS.xls`
+- `TESTE_2_COM ERROS.xls`
+- `TESTE_3_SEM ERROS.xls`
+
+## Distribuicao
+
+Existe um pacote pronto para distribuicao local em `pacote_distribuicao`, com executavel, exemplos e instrucoes.
+
+## Tecnologias usadas
+
+- Python 3.10
+- CustomTkinter
+- pandas
+- openpyxl
+- xlrd
+- PyInstaller
+
+## Autor
+
+Projeto publicado por [Rodrigo-dev7](https://github.com/Rodrigo-dev7).

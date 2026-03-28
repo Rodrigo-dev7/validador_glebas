@@ -1,0 +1,35 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="360" rx="28" fill="#0F172A"/>
+  <text x="70" y="72" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Fluxo de uso</text>
+  <g>
+    <rect x="70" y="118" width="246" height="162" rx="24" fill="#172554"/>
+    <circle cx="116" cy="164" r="22" fill="#3B82F6"/>
+    <text x="116" y="172" fill="#EFF6FF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" text-anchor="middle">1</text>
+    <text x="96" y="214" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Selecione a planilha</text>
+    <text x="96" y="246" fill="#BFDBFE" font-family="Segoe UI, Arial, sans-serif" font-size="20">Arquivos .xls ou .xlsx</text>
+  </g>
+  <g>
+    <rect x="364" y="118" width="246" height="162" rx="24" fill="#14532D"/>
+    <circle cx="410" cy="164" r="22" fill="#22C55E"/>
+    <text x="410" y="172" fill="#052E16" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" text-anchor="middle">2</text>
+    <text x="390" y="214" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Clique em Validar</text>
+    <text x="390" y="246" fill="#BBF7D0" font-family="Segoe UI, Arial, sans-serif" font-size="20">Analise automatica por gleba</text>
+  </g>
+  <g>
+    <rect x="658" y="118" width="246" height="162" rx="24" fill="#78350F"/>
+    <circle cx="704" cy="164" r="22" fill="#F59E0B"/>
+    <text x="704" y="172" fill="#451A03" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" text-anchor="middle">3</text>
+    <text x="684" y="214" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Revise os erros</text>
+    <text x="684" y="246" fill="#FDE68A" font-family="Segoe UI, Arial, sans-serif" font-size="20">Duplicidade, fechamento e formato</text>
+  </g>
+  <g>
+    <rect x="952" y="118" width="258" height="162" rx="24" fill="#3F1D5A"/>
+    <circle cx="998" cy="164" r="22" fill="#C084FC"/>
+    <text x="998" y="172" fill="#2E1065" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="800" text-anchor="middle">4</text>
+    <text x="1024" y="214" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Exporte o relatorio</text>
+    <text x="1024" y="246" fill="#E9D5FF" font-family="Segoe UI, Arial, sans-serif" font-size="20">Resumo textual pronto para uso</text>
+  </g>
+  <path d="M316 200H364" stroke="#60A5FA" stroke-width="8" stroke-linecap="round"/>
+  <path d="M610 200H658" stroke="#4ADE80" stroke-width="8" stroke-linecap="round"/>
+  <path d="M904 200H952" stroke="#FBBF24" stroke-width="8" stroke-linecap="round"/>
+</svg>
