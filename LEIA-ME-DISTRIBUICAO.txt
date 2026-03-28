@@ -1,0 +1,14 @@
+VALIDADOR DE GLEBAS
+
+Arquivos desta entrega:
+- ValidadorGlebas.exe: aplicativo principal.
+- Exemplos\*.xls: planilhas de exemplo para teste.
+
+Como usar:
+1. Abra o arquivo ValidadorGlebas.exe.
+2. Clique para selecionar uma planilha .xls ou .xlsx.
+3. Aguarde a validacao e exporte o relatorio se desejar.
+
+Observacoes:
+- Nao e necessario instalar Python para usar o executavel.
+- Se o Windows exibir aviso de seguranca, escolha a opcao para executar mesmo assim, se confiar na origem do arquivo.
