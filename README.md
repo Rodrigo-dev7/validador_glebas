@@ -27,6 +27,14 @@ Aplicativo desktop em Python com `CustomTkinter` para validar planilhas de coord
   <img src="assets/readme-flow.svg" alt="Fluxo de uso do aplicativo" width="100%">
 </p>
 
+## Demo rapida
+
+<p align="center">
+  <img src="assets/readme-demo.gif" alt="GIF do app abrindo, validando arquivo e exibindo resultado" width="100%">
+</p>
+
+O GIF acima foi gerado com a propria aplicacao usando a planilha `TESTE_2_COM ERROS.xls`, mostrando a abertura da interface, a selecao do arquivo e a exibicao do relatorio final.
+
 ## Antes e depois
 
 <p align="center">
