@@ -27,6 +27,20 @@ Aplicativo desktop em Python com `CustomTkinter` para validar planilhas de coord
   <img src="assets/readme-flow.svg" alt="Fluxo de uso do aplicativo" width="100%">
 </p>
 
+## Antes e depois
+
+<p align="center">
+  <img src="assets/readme-before-after.svg" alt="Comparacao antes e depois da validacao" width="100%">
+</p>
+
+Usando os arquivos de exemplo incluidos no repositorio:
+
+- `TESTE_1_COM ERROS.xls`: 1 gleba e 11 erros encontrados
+- `TESTE_2_COM ERROS.xls`: 4 glebas e 4 erros encontrados
+- `TESTE_3_SEM ERROS.xls`: 2 glebas e 0 erros encontrados
+
+Isso ajuda a mostrar rapidamente, na propria pagina do GitHub, o contraste entre uma planilha com problemas e uma planilha validada com sucesso.
+
 ## Como executar o app
 
 ```powershell

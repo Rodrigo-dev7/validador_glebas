@@ -1,0 +1,32 @@
+<svg width="1280" height="620" viewBox="0 0 1280 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="620" rx="28" fill="#0F172A"/>
+  <text x="70" y="78" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Antes e depois da validacao</text>
+  <text x="70" y="114" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="22">Exemplos reais incluidos no repositorio</text>
+
+  <rect x="70" y="156" width="540" height="396" rx="28" fill="#111827"/>
+  <text x="110" y="214" fill="#FCA5A5" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">Antes</text>
+  <text x="110" y="250" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="22">Planilhas com problemas de fechamento e repeticao</text>
+
+  <rect x="110" y="290" width="460" height="94" rx="18" fill="#3F1D1D"/>
+  <text x="138" y="326" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">TESTE_1_COM ERROS.xls</text>
+  <text x="138" y="360" fill="#FECACA" font-family="Segoe UI, Arial, sans-serif" font-size="20">1 gleba • 11 erros • poligono nao fechado</text>
+
+  <rect x="110" y="404" width="460" height="94" rx="18" fill="#422006"/>
+  <text x="138" y="440" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">TESTE_2_COM ERROS.xls</text>
+  <text x="138" y="474" fill="#FDE68A" font-family="Segoe UI, Arial, sans-serif" font-size="20">4 glebas • 4 erros • duplicidade em excesso</text>
+
+  <path d="M640 334H784" stroke="#60A5FA" stroke-width="10" stroke-linecap="round"/>
+  <path d="M742 292L784 334L742 376" stroke="#60A5FA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="814" y="156" width="396" height="396" rx="28" fill="#0F3A2A"/>
+  <text x="854" y="214" fill="#86EFAC" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="800">Depois</text>
+  <text x="854" y="250" fill="#DCFCE7" font-family="Segoe UI, Arial, sans-serif" font-size="22">Relatorio limpo e glebas sem inconsistencias</text>
+
+  <rect x="854" y="290" width="316" height="138" rx="22" fill="#14532D"/>
+  <text x="886" y="328" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">TESTE_3_SEM ERROS.xls</text>
+  <text x="886" y="364" fill="#BBF7D0" font-family="Segoe UI, Arial, sans-serif" font-size="20">2 glebas validadas</text>
+  <text x="886" y="398" fill="#86EFAC" font-family="Segoe UI, Arial, sans-serif" font-size="20">0 erros encontrados</text>
+
+  <circle cx="1112" cy="486" r="46" fill="#22C55E"/>
+  <path d="M1088 486L1104 502L1138 468" stroke="#052E16" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
